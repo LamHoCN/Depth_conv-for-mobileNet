@@ -23,7 +23,7 @@ if the feature_map_size >32 (warpSize) use depth_conv_big()
        depth_conv_9    1024              3 x 3 / 1    13 x  13 x1024   ->    13 x  13 x1024   gpu_time:2.599936 ms
 ## Total time: 12.867584ms
  
-# CUDA implementation on caffe by liuhao 
+## CUDA implementation on caffe by liuhao 
 ## https://github.com/yonghenglh6/DepthwiseConvolution
 
        layer        filters              size        input                  output            time
@@ -40,12 +40,12 @@ if the feature_map_size >32 (warpSize) use depth_conv_big()
        depth_conv_7_5   512              3 x 3 / 1    26 x  26 x 512   ->    26 x  26 x 512   gpu_time:0.045056 ms
        depth_conv_8     512              3 x 3 / 2    26 x  26 x 512   ->    13 x  13 x 512   gpu_time:0.019456 ms
        depth_conv_9    1024              3 x 3 / 1    13 x  13 x1024   ->    13 x  13 x1024   gpu_time:0.025600 ms
-# Total time: 1.1008512 ms
+## Total time: 1.1008512 ms
 
 
  
  
-# My CUDA implementation: 
+## My CUDA implementation: 
 
        layer        filters              size        input                  output            time
        depth_conv_1     32               3 x 3 / 1   208 x 208 x  32   ->   208 x 208 x  32   gpu_time:0.169536 ms
@@ -61,7 +61,7 @@ if the feature_map_size >32 (warpSize) use depth_conv_big()
        depth_conv_7_5   512              3 x 3 / 1    26 x  26 x 512   ->    26 x  26 x 512   gpu_time:0.018432 ms
        depth_conv_8     512              3 x 3 / 2    26 x  26 x 512   ->    13 x  13 x 512   gpu_time:0.012288 ms
        depth_conv_9    1024              3 x 3 / 1    13 x  13 x1024   ->    13 x  13 x1024   gpu_time:0.014336 ms
-# Total time: 0.803936 ms
+## Total time: 0.803936 ms
 
 
 
