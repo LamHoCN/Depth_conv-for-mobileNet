@@ -5,7 +5,7 @@ if the feature_map_size >32 (warpSize) use depth_conv_big()
        feature_map_size <32            use depth_conv_small()
        
        
-# Depth_conv use group:
+## Depth_conv use group:
 
        layer        filters              size        input                  output            time 
        depth_conv_1     32               3 x 3 / 1   208 x 208 x  32   ->   208 x 208 x  32   gpu_time:0.542720 ms \<br>  
