@@ -1,3 +1,6 @@
+# 此项目归属于深圳互连科技，若有疑问请移步https://github.com/Aiglim/Depth_conv-for-mobileNet
+
+
 # Depth_conv-for-mobileNet
 Depth_conv for MobileNet 3x3
 
